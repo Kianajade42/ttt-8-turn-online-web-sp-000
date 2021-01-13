@@ -25,7 +25,7 @@ def turn_count(board)
  counter = 0
  board.each {|space|
    if space == "X" || space == "O"
-     counter += 1   
+     counter += 1
    end
  }
  counter
@@ -48,7 +48,7 @@ end
 def valid_move?(board, index)
   if !position_taken?(board, index) && (index).between?(0,8)
     return true
-  else 
+  else
     return false
   end
 end
