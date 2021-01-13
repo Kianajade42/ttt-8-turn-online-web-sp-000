@@ -152,5 +152,5 @@ end
       expect(output).to include("   |   |   ")
     end
   end
-end
+
 end
