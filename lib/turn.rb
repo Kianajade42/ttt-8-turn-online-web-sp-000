@@ -52,3 +52,6 @@ def valid_move?(board, index)
     return false
   end
 end
+def move(board, index, character="X")
+  puts board[index]=character
+  end
